@@ -8,4 +8,8 @@ VALUES('yamada@xxx.co.jp', '$2a$10$xRTXvpMWly0oGiu65WZlm.3YL95LGVV2ASFjDhe6WF4.Q
 
 /* ユーザーマスタのデータ（一般権限） */
 INSERT INTO m_user (user_id, password, user_name, birthday, age, marriage, role)
-VALUES('tamura@xxx.co.jp', '$2a$10$xRTXvpMWly0oGiu65WZlm.3YL95LGVV2ASFjDhe6WF4.Qji1huIPa', '田村', '1986-11-05', 31, false, 'ROLE_GENERAL');
+VALUES('tamura@xxx.co.jp', '$2a$10$xRTXvpMWly0oGiu65WZlm.3YL95LGVV2ASFjDhe6WF4.Qji1huIPa', '田村次郎', '1986-11-05', 31, false, 'ROLE_GENERAL');
+
+/* ユーザーマスタのデータ（一般権限） */
+INSERT INTO m_user (user_id, password, user_name, birthday, age, marriage, role)
+VALUES('arai@xxx.co.jp', '$2a$10$xRTXvpMWly0oGiu65WZlm.3YL95LGVV2ASFjDhe6WF4.Qji1huIPa', '新井三郎', '1965-08-11', 53, false, 'ROLE_GENERAL');
